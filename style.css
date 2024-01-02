@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bg-img {
+  height: 125vh;
+  width: 100vw;
+  filter: brightness(0.6);
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.jumbotron {
+  padding: 11rem 3%;
+  max-width: 60rem;
+  margin-left: 3rem;
+}
+
+h2,
+h3 {
+  font-weight: bold;
+}
+#about .container h2 {
+  margin: 36px;
+}
+
+#about .container .row {
+  margin: -3px;
+}
+
+#about .container {
+  background-color: #f4f5f6;
+  margin-top: -85px;
+  padding-bottom: 30px;
+}
+
+.glyphicon {
+  position: relative;
+  font-size: 42px;
+  color: #27475e;
+}
+
+section {
+  padding-top: 7rem;
+}
